@@ -1,0 +1,113 @@
+
+.body{
+  background-color: #FFF3E4;
+}
+.first{
+  margin-top: 50px;
+  width: 500px;
+  height:450px;
+  text-align: center;
+  background-color: #EED6C4;
+
+}
+
+.heading1{
+  background-color: #483434;
+  padding: 5px;
+  color: white;
+}
+.footer{
+margin-top: 50px;
+text-align: center;
+}
+.start{
+  height:auto;
+}
+.second{
+  padding-top: 70px;
+  height: 250px;
+  background-color: #483434;
+  text-align: left;
+  color: white;
+}
+.last{
+  background-color: white;
+  text-align: center;
+
+
+}
+.container{
+
+}
+.app{
+  text-align: center;
+}
+.mar{
+  height:10px;
+  margin-top: 80px;
+  color: red;
+  border-radius: 20px;
+}
+.courses{
+  text-align: center;
+}
+.card{
+  margin: 20px;
+  margin-left: 90px;
+}
+.cont{
+  text-align: center;
+}
+
+
+
+/* loader */
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
